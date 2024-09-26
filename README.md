@@ -1,1 +1,2 @@
-# arkpz-pzpi-22-7-bystrytska-anastasiia
+   Бистрицька Анастасія 
+   ПЗПІ-22-7
