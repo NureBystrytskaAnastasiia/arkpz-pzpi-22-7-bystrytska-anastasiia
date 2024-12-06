@@ -1,1 +1,136 @@
+МIНIСТЕРСТВО ОСВIТИ І НАУКИ УКРАЇНИ
+
+ХАРКIВСЬКИЙ НАЦІОНАЛЬНИЙ
+УНIВЕРСИТЕТ РАДIОЕЛЕКТРОНIКИ
+
+
+
+
+Кафедра «Програмна інженерія»
+
+
+
+
+ЗВІТ
+до практичного заняття №2 з дисципліни 
+«Аналіз та рефакторинг коду» 
+На тему: «Методи рефакторингу коду програмного забезпечення»
+
+
+Виконала: 						Прийняв:
+ст. гр. ПЗПІ-22-7                       		ст. викладач кафедри ПІ
+Бистрицька Анастасія Іллівна 	          Сокорчук Ігор Петрович
+
+
+
+
+
+
+Харкiв 2024
+Мета:
+Опанувати рефакторинг програмного коду та закріпити основи чистоти та структури коду.
+Задання:
+Обрати три методи рефакторингу коду із книги Мартіна Фаулера «Refactoring. Improving the Design of Existing Code».
+Хід роботи
+Було обрано три метода для рефакторінку це: Add Parameter, Encapsulate Field, Replace Nested Conditional with Guard Clauses. У презентації (Додаток А) наведено ключові моменти щодо рефакторінгуцих методів.
+1.	Метод Add Parameter
+
+//ДО РЕФАКТОРИНГУ 
+
+function greet() {
+    console.log("Hello, John!");
+}
+//ПІСЛЯ РЕФАКТОРИНГУ 
+function greet(name) {
+    console.log(`Hello, ${name}!`);
+}
+
+greet("John");
+greet("Jane");
+
+2.	Метод Encapsulate Field
+
+//ДО РЕФАКТОРИНГУ
+class User {
+    constructor() {
+        this.name = "John";
+    }
+}
+
+const user = new User();
+user.name = "";  // Можна задати некоректне значення
+//ПІСЛЯ РЕФАКТОРИНГУ
+class User {
+    constructor() {
+        this._name = "John";
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    set name(newName) {
+        if (newName) {
+            this._name = newName;
+        } else {
+            console.error("Invalid name");
+        }
+    }
+}
+
+3.	Метод Replace Nested Conditional with Guard Clauses
+
+//ДО РЕФАКТОРИНГУ
+function calculateDiscount(customer) {
+    if (customer) {
+        if (customer.isMember) {
+            return 10;
+        }
+    }
+    return 0;
+}
+
+//ПІСЛЯ РЕФАКТОРИНГУ
+function calculateDiscount(customer) {
+    if (!customer) return 0;
+    if (!customer.isMember) return 0;
+    return 10;
+}
+
+
+Висновок:
+Застосування методів рефакторингу дозволило зробити код більш зрозумілим та легким для підтримки. Методи "Add Parameter", "Encapsulate Field" та "Replace Nested Conditional with Guard Clauses" виявилися особливо ефективними для покращення структури та логіки програмного забезпечення.
+Посилання на youtube:
+https://youtu.be/_4UteZ-hpPw
+ 
+ДОДАТОК А 
+Презентація на тему «Методи рефакторингу коду програмного забезпечення».
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
