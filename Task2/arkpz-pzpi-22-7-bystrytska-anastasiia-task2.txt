@@ -1,1 +1,361 @@
+Міністерство освіти і науки України Харківський національний університет радіоелектроніки
+
+
+
+
+
+Кафедра «Програмної інженерії»
+
+
+
+
+
+Дисципліна « Аналіз та рефакторинг коду»
+ Лабораторна робота №2
+«РОЗРОБКА БАЗИ ДАНИХ ДЛЯ СЕРВЕРНОЇ ЧАСТИНИ ПРОГРАМНОЇ СИСТЕМИ ТА ПРИКЛАДНОГО ПРОГРАМНОГО ІНТЕРФЕЙСУ (API)»
+
+
+
+
+
+
+
+
+
+
+
+
+Виконала:
+ст. гр. ПЗПІ-22-7
+Бистрицька А.І	Прийняв:
+ ст. викл.
+Сокорчук І.П
+
+
+Харків – 2024
+Мета роботи:
+Розробити базу даних для серверної частини  програмної системи та прикладного програмного інтерфейсу.
+Тема роботи: 
+Програмна система для автоматизації роботи аптечних мереж
+Посилання на відеозапис: https://youtu.be/FZlF-VfzZyA
+
+Хід роботи
+
+1.	Розробити будову програмної системи.
+1.1	Модуль "Управління запасами"
+•	Контроль залишків: моніторинг наявності лікарських засобів у реальному часі.
+•	Попередження про мінімальні запаси: автоматичні сповіщення про необхідність поповнення запасів.
+•	Управління термінами придатності: відстеження термінів придатності та сповіщення про наближення закінчення.
+•	Додавання та оновлення даних про ліки: інтеграція інформації про постачальників та оновлення товарів.
+1.2	Модуль "IoT-моніторинг умов зберігання"
+•	Моніторинг параметрів середовища: контроль температури та вологості у зонах зберігання.
+•	Автоматичні сповіщення про порушення параметрів: миттєві сповіщення у разі відхилення від норм.
+•	Архів даних про умови зберігання: збереження історії для контролю відповідності стандартам у разі перевірок.
+1.3	Модуль "Обробка замовлень"
+•	Створення замовлень: формування заявок на постачання лікарських засобів.
+•	Відстеження статусу замовлень: контроль виконання замовлень від створення до доставки.
+1.4	Модуль "Авторизація користувачів"
+•	Управління ролями: підтримка двох ролей — "Адміністратор" та "Фармацевт".
+•	Безпека доступу: аутентифікація за логіном та паролем.
+•	Відновлення доступу: механізми для зміни паролю та відновлення облікових даних.
+1.5	Модуль "Адміністрування системи"
+•	Управління користувачами системи: видалення та перегляд облікових записів.
+•	Резервування даних: автоматичне та ручне створення резервних копій.
+•	Імпортування та експорт даних: підтримка форматів CSV, Excel для швидкого оновлення.
+•	Управління параметрами системи: налаштування сертифікатів та параметрів безпеки.
+2.	Створити UML діаграму прецедентів для серверної частини системи
+Актори
+1.	Фармацевт
+2.	Адміністратор
+1. Фармацевт
+Фармацевт взаємодіє з системою для виконання основних операцій у аптеці. Основні дії:
+1.	Контроль запасів у реальному часі
+•	Перевірка актуальних залишків лікарських засобів у системі.
+2.	Автоматичні сповіщення про поповнення запасів
+•	Отримання сповіщень про необхідність поповнення запасів ліків.
+3.	Управління термінами придатності
+•	Моніторинг та контроль термінів придатності лікарських засобів.
+4.	Поповнення запасів ліків
+•	Додавання ліків до системи та оновлення даних про постачальників.
+5.	Моніторинг параметрів зберігання
+•	Перевірка даних про температуру та вологість у зонах зберігання через IoT-сенсори.
+6.	Відстеження статусу замовлень
+•	Контроль процесу замовлень від моменту створення до доставки
+2. Адміністратор
+Адміністратор має доступ до більш розширеного функціоналу системи та забезпечує її налаштування та управління. Основні дії:
+1.	Авторизація користувачів
+•	Управління логінами та паролями для співробітників.
+2.	Управління користувачами системи
+•	Перегляд облікових записів співробітників.
+•	Видалення облікових записів у разі звільнення працівників.
+3.	Управління даними системи
+•	Збереження та редагування ключових даних системи.
+•	Забезпечення резервного копіювання даних для їх цілісності.
+•	Відновлення даних із резервних копій у разі збоїв.
+4.	Створення резервних копій даних
+•	Автоматичне та ручне створення резервних копій усіх налаштувань та даних системи.
+5.	Експорт та імпортування даних
+•	Експорт даних у популярних форматах (CSV, Excel).
+•	Імпортування даних для оновлення системи.
+6.	Управління сертифікатами
+•	Налаштування параметрів температури та вологості для конкретних приміщень.
+•	Встановлення та оновлення цифрових сертифікатів для забезпечення безпеки системи.
+•	Використання SSL-сертифікатів для захисту передачі даних.
+7.	Налаштування параметрів IoT
+•	Налаштування параметрів температури та вологості для конкретних зон зберігання.
+Нище наведено  UML – діаграма (рисунок – 1.1)
+
+ 
+Рисунок 1.1  - UML – діаграма
+
+3.Створити ER діаграму даних.
+Нище наведена  ER – діаграма (рисунок 1.2)
+
+ 
+Рисунок 1.2 – ER – діаграма
+
+4.Розробити базу даних (БД) програмної системи.
+CREATE DATABASE PharmacySystem;
+USE PharmacySystem;
+-- Таблиця для користувачів
+CREATE TABLE User (
+  user_id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  email VARCHAR(255),
+  role INT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (role) REFERENCES Role(role_id)
+);
+-- Таблиця для постачальників
+CREATE TABLE Supplier (
+  supplier_id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  contact_details TEXT,
+  address VARCHAR(255)
+);
+-- Таблиця для приміщень
+CREATE TABLE StorageRoom (
+  room_id INT AUTO_INCREMENT PRIMARY KEY,
+  location VARCHAR(255) NOT NULL
+);
+-- Таблиця для лікарських засобів
+CREATE TABLE Medicine (
+  medicine_id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  manufacturer VARCHAR(255),
+  expiration_date DATE,
+  quantity INT,
+  supplier_id INT,
+  storage_room_id INT,
+  FOREIGN KEY (supplier_id) REFERENCES Supplier(supplier_id),
+  FOREIGN KEY (storage_room_id) REFERENCES StorageRoom(room_id)
+);
+-- Таблиця для замовлень
+CREATE TABLE `Order` (
+  order_id INT AUTO_INCREMENT PRIMARY KEY,
+  order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  status VARCHAR(50),
+  total_cost DECIMAL(10, 2),
+ medicine_quantity INT,
+  user_id INT,
+  storage_room_id INT,
+  FOREIGN KEY (user_id) REFERENCES User(user_id),
+  FOREIGN KEY (medicine_id) REFERENCES Medicine(medicine_id)
+);
+-- Таблиця для IoT даних
+CREATE TABLE IoTData (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  room_id INT,
+  recorded_temperature DECIMAL(5, 2),
+  recorded_humidity DECIMAL(5, 2),
+  recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (room_id) REFERENCES StorageRoom(room_id)
+);
+Опис таблиць:
+1.	Role — таблиця для ролей користувачів.
+2.	User — таблиця для користувачів, де є посилання на роль користувача.
+3.	Supplier — таблиця для постачальників лікарських засобів.
+4.	StorageRoom — таблиця для приміщень, де зберігаються ліки.
+5.	Medicine — таблиця для лікарських засобів з посиланнями на постачальників і приміщення.
+6.	Order — таблиця для замовлень, що містить посилання на користувача та приміщення.
+7.	IoTData — таблиця для даних, зібраних IoT пристроями.
+
+5.	Створити діаграму структури БД.
+Нище наведена структура бази даних (рисунок 1.3)
+ 
+Рисунок 1.3 – Структура бази даних
+
+6.	Розробити функції роботи з БД (ORM або CoRM тощо).
+
+const mongoose = require('mongoose');
+
+const medicineSchema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true,
+  },
+  manufacturer: {
+    type: String,
+    required: true,
+  },
+  expiration_date: {
+    type: Date,
+    required: true,
+  },
+  quantity: {
+    type: Number,
+    required: true,
+    min: 0,
+  },
+  supplier_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Supplier',
+    required: true,
+  },
+  storage_room_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'StorageRoom',
+    required: true,
+  },
+});
+
+const Medicine = mongoose.model('Medicine', medicineSchema);
+
+module.exports = Medicine;
+ 
+Та створені функції:
+const Medicine = require('../models/medicine.model');
+const checkRole = require('../middleware/checkRole');
+
+// Додавання нового лікарського засобу
+exports.addMedicine = async (req, res) => {
+  try {
+    const { name, manufacturer, expiration_date, quantity, supplier_id, storage_room_id } = req.body;
+
+    if (!name || !manufacturer || !expiration_date || quantity == null || !supplier_id || !storage_room_id) {
+      return res.status(400).json({ message: 'Усі поля є обовʼязковими' });
+    }
+
+    const newMedicine = new Medicine({
+      name,
+      manufacturer,
+      expiration_date,
+      quantity,
+      supplier_id,
+      storage_room_id,
+    });
+
+    await newMedicine.save();
+    res.status(201).json({ message: 'Лікарський засіб успішно додано', medicine: newMedicine });
+  } catch (error) {
+    console.error('Помилка при додаванні лікарського засобу:', error);
+    res.status(500).json({ message: 'Помилка сервера', error: error.message });
+  }
+};
+
+// Редагування лікарського засобу
+exports.updateMedicine = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const updates = req.body;
+
+    const updatedMedicine = await Medicine.findByIdAndUpdate(id, updates, { new: true });
+
+    if (!updatedMedicine) {
+      return res.status(404).json({ message: 'Лікарський засіб не знайдено' });
+    }
+
+    res.status(200).json({ message: 'Лікарський засіб успішно оновлено', medicine: updatedMedicine });
+  } catch (error) {
+    console.error('Помилка при редагуванні лікарського засобу:', error);
+    res.status(500).json({ message: 'Помилка сервера', error: error.message });
+  }
+};
+
+// Видалення лікарського засобу
+exports.deleteMedicine = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const deletedMedicine = await Medicine.findByIdAndDelete(id);
+
+    if (!deletedMedicine) {
+      return res.status(404).json({ message: 'Лікарський засіб не знайдено' });
+    }
+
+    res.status(200).json({ message: 'Лікарський засіб успішно видалено' });
+  } catch (error) {
+    console.error('Помилка при видаленні лікарського засобу:', error);
+    res.status(500).json({ message: 'Помилка сервера', error: error.message });
+  }
+};
+// Отримання всіх ліків
+exports.getAllMedicines = async (req, res) => {
+    try {
+      const medicines = await Medicine.find()
+        .populate('supplier_id', 'name contact_details') // Підтягуємо інформацію про постачальника
+        .populate('storage_room_id', 'location'); // Підтягуємо інформацію про кімнату зберігання
+  
+      if (medicines.length === 0) {
+        return res.status(404).json({ message: 'Ліки не знайдено' });
+      }
+  
+      res.status(200).json(medicines);
+    } catch (error) {
+      console.error('Помилка при отриманні всіх ліків:', error);
+      res.status(500).json({ message: 'Помилка сервера', error: error.message });
+    }
+  };
+  
+  exports.getMedicineById = async (req, res) => {
+    try {
+      const { id } = req.params;
+  
+      // Шукаємо лікарський засіб за ID в базі даних
+      const medicine = await Medicine.findById(id)
+        .populate('supplier_id', 'name contact_details')  // Підтягуємо інформацію про постачальника
+        .populate('storage_room_id', 'location');  // Підтягуємо інформацію про кімнату зберігання
+  
+      if (!medicine) {
+        return res.status(404).json({ message: 'Ліки не знайдено' });
+      }
+  
+      res.status(200).json(medicine);
+    } catch (error) {
+      console.error('Помилка при отриманні ліків за ID:', error);
+      res.status(500).json({ message: 'Помилка сервера', error: error.message });
+    }
+  };
+  7) Розробити API (REST або GraphQL, gRPC тощо) для взаємодії серверної частини з клієнтами.
+Для реалізації функціоналу нашої системи ми використовуємо REST API (Representational State Transfer), який забезпечує ефективну взаємодію між клієнтом і сервером. REST API працює з використанням стандартних HTTP-методів: GET для отримання даних, POST для створення нових ресурсів, PUT для оновлення існуючих даних і DELETE для їх видалення. Усі ендпоінти структуровані за ресурсами, такими як /api/auth для аутентифікації, /api/medicines для роботи з лікарськими засобами, /api/orders для обробки замовлень, /api/suppliers для управління постачальниками та /api/storage-rooms для управління кімнатами зберігання. Дані передаються у форматі JSON, що є стандартом для REST API, і кожен запит містить усю необхідну інформацію для виконання без залежності від попередніх запитів.
+Аутентифікація
+1.	POST /api/auth/register — Реєстрація нового користувача.
+2.	POST /api/auth/login — Вхід у систему.
+3.	POST /api/auth/logout — Вихід із системи.
+4.	POST /api/auth/forgot-password — Запит на відновлення паролю.
+5.	GET /api/auth/user-profile — Отримання інформації про поточного користувача.
+Місце зберігання
+1.	GET /api/storage-rooms — Отримання списку всіх кімнат зберігання.
+2.	POST /api/storage-rooms/add — Додавання нової кімнати.
+Ліки
+1.	POST /api/medicines — Додавання нового лікарського засобу.
+2.	GET /api/medicines — Отримання списку всіх ліків.
+3.	PUT /api/medicines/{id} — Редагування інформації про лікарський засіб.
+4.	DELETE /api/medicines/{id} — Видалення лікарського засобу.
+5.	GET /api/medicines/{id} — Отримання інформації про конкретний лікарський засіб.
+Замовлення
+1.	POST /api/orders — Створення нового замовлення.
+2.	GET /api/orders — Отримання списку всіх замовлень.
+3.	GET /api/orders/{id} — Отримання інформації про конкретне замовлення.
+4.	PUT /api/orders/{id} — Оновлення інформації про замовлення.
+5.	DELETE /api/orders/{id} — Видалення замовлення.
+Постачальники
+1.	POST /api/suppliers/add — Додавання нового постачальника.
+2.	PUT /api/suppliers/update/{supplier_id} — Редагування інформації про постачальника.
+3.	DELETE /api/suppliers/delete/{supplier_id} — Видалення постачальника.
+4.	GET /api/suppliers — Отримання списку всіх постачальників.
+
+
+
 
