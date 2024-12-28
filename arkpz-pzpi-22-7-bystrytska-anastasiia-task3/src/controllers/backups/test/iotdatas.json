@@ -1,0 +1,401 @@
+[
+  {
+    "_id": "676f29ceef459229ac66a69b",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:27:26.859Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f29d7ef459229ac66a69d",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:27:35.556Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f29e1ef459229ac66a69f",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:27:45.124Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f29eaef459229ac66a6a1",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:27:54.366Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f29f6ef459229ac66a6a3",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:28:06.176Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f29ffef459229ac66a6a5",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:28:15.087Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a05ef459229ac66a6a7",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:28:21.299Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a0cef459229ac66a6a9",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:28:28.013Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a13ef459229ac66a6ab",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:28:35.531Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a19ef459229ac66a6ad",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:28:41.675Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a21ef459229ac66a6af",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:28:49.779Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a29ef459229ac66a6b1",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:28:57.407Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a30ef459229ac66a6b3",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:29:04.100Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a35ef459229ac66a6b5",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:29:09.940Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a3bef459229ac66a6b7",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:29:15.749Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a41ef459229ac66a6b9",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:29:21.786Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a47ef459229ac66a6bb",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:29:27.670Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2a4cef459229ac66a6bd",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:29:32.321Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d0460c2a7c43144efd6",
+    "recorded_temperature": 43.5,
+    "recorded_humidity": 50.7,
+    "recorded_at": "2024-12-27T22:41:08.812Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d0960c2a7c43144efd8",
+    "recorded_temperature": 33.6,
+    "recorded_humidity": 42.6,
+    "recorded_at": "2024-12-27T22:41:13.190Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d0d60c2a7c43144efda",
+    "recorded_temperature": 42.400000000000006,
+    "recorded_humidity": 40.800000000000004,
+    "recorded_at": "2024-12-27T22:41:17.063Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d1160c2a7c43144efdc",
+    "recorded_temperature": 32.5,
+    "recorded_humidity": 53.4,
+    "recorded_at": "2024-12-27T22:41:21.781Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d1560c2a7c43144efde",
+    "recorded_temperature": 40.2,
+    "recorded_humidity": 66.9,
+    "recorded_at": "2024-12-27T22:41:25.740Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d1a60c2a7c43144efe0",
+    "recorded_temperature": 42.400000000000006,
+    "recorded_humidity": 65.1,
+    "recorded_at": "2024-12-27T22:41:30.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d1e60c2a7c43144efe2",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 59.7,
+    "recorded_at": "2024-12-27T22:41:34.420Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d2260c2a7c43144efe4",
+    "recorded_temperature": 33.6,
+    "recorded_humidity": 50.7,
+    "recorded_at": "2024-12-27T22:41:38.908Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d2760c2a7c43144efe6",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 75.9,
+    "recorded_at": "2024-12-27T22:41:43.400Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d2b60c2a7c43144efe8",
+    "recorded_temperature": 28.1,
+    "recorded_humidity": 70.5,
+    "recorded_at": "2024-12-27T22:41:47.959Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d3060c2a7c43144efea",
+    "recorded_temperature": 34.7,
+    "recorded_humidity": 80.4,
+    "recorded_at": "2024-12-27T22:41:52.025Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d3460c2a7c43144efec",
+    "recorded_temperature": 46.800000000000004,
+    "recorded_humidity": 47.1,
+    "recorded_at": "2024-12-27T22:41:56.288Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d3860c2a7c43144efee",
+    "recorded_temperature": 49,
+    "recorded_humidity": 39.9,
+    "recorded_at": "2024-12-27T22:42:00.225Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d3c60c2a7c43144eff0",
+    "recorded_temperature": 43.5,
+    "recorded_humidity": 51.6,
+    "recorded_at": "2024-12-27T22:42:04.830Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d4160c2a7c43144eff2",
+    "recorded_temperature": 38,
+    "recorded_humidity": 38.1,
+    "recorded_at": "2024-12-27T22:42:09.117Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d4560c2a7c43144eff4",
+    "recorded_temperature": 29.200000000000003,
+    "recorded_humidity": 56.1,
+    "recorded_at": "2024-12-27T22:42:13.267Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d4960c2a7c43144eff6",
+    "recorded_temperature": 27,
+    "recorded_humidity": 55.2,
+    "recorded_at": "2024-12-27T22:42:17.330Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d4d60c2a7c43144eff8",
+    "recorded_temperature": 22.6,
+    "recorded_humidity": 48.9,
+    "recorded_at": "2024-12-27T22:42:21.401Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d5160c2a7c43144effa",
+    "recorded_temperature": 34.7,
+    "recorded_humidity": 35.4,
+    "recorded_at": "2024-12-27T22:42:25.543Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d5560c2a7c43144effc",
+    "recorded_temperature": 47.900000000000006,
+    "recorded_humidity": 63.300000000000004,
+    "recorded_at": "2024-12-27T22:42:29.865Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d5960c2a7c43144effe",
+    "recorded_temperature": 21.5,
+    "recorded_humidity": 62.4,
+    "recorded_at": "2024-12-27T22:42:33.705Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d5d60c2a7c43144f000",
+    "recorded_temperature": 45.7,
+    "recorded_humidity": 65.1,
+    "recorded_at": "2024-12-27T22:42:37.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d6160c2a7c43144f002",
+    "recorded_temperature": 47.900000000000006,
+    "recorded_humidity": 51.6,
+    "recorded_at": "2024-12-27T22:42:41.821Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d6660c2a7c43144f004",
+    "recorded_temperature": 32.5,
+    "recorded_humidity": 30.900000000000002,
+    "recorded_at": "2024-12-27T22:42:46.053Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d6b60c2a7c43144f006",
+    "recorded_temperature": 49,
+    "recorded_humidity": 64.2,
+    "recorded_at": "2024-12-27T22:42:51.256Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d6f60c2a7c43144f008",
+    "recorded_temperature": 49,
+    "recorded_humidity": 31.8,
+    "recorded_at": "2024-12-27T22:42:55.055Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d7260c2a7c43144f00a",
+    "recorded_temperature": 28.1,
+    "recorded_humidity": 78.60000000000001,
+    "recorded_at": "2024-12-27T22:42:58.664Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d7760c2a7c43144f00c",
+    "recorded_temperature": 25.900000000000002,
+    "recorded_humidity": 75,
+    "recorded_at": "2024-12-27T22:43:03.173Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d7cae0862c9e4222d90",
+    "recorded_temperature": 42.400000000000006,
+    "recorded_humidity": 64.2,
+    "recorded_at": "2024-12-27T22:43:08.933Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d81ae0862c9e4222d94",
+    "recorded_temperature": 42.400000000000006,
+    "recorded_humidity": 53.4,
+    "recorded_at": "2024-12-27T22:43:13.271Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d85ae0862c9e4222d96",
+    "recorded_temperature": 32.5,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T22:43:17.287Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d8aae0862c9e4222d98",
+    "recorded_temperature": 42.400000000000006,
+    "recorded_humidity": 34.5,
+    "recorded_at": "2024-12-27T22:43:22.068Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d8dae0862c9e4222d9a",
+    "recorded_temperature": 24.8,
+    "recorded_humidity": 75.9,
+    "recorded_at": "2024-12-27T22:43:25.360Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f2d91ae0862c9e4222d9c",
+    "recorded_temperature": 28.1,
+    "recorded_humidity": 30.900000000000002,
+    "recorded_at": "2024-12-27T22:43:29.066Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f3f7b8d59b8163b99ab6a",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-27T23:59:55.618Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f3f908d59b8163b99ab6c",
+    "recorded_temperature": 31.400000000000002,
+    "recorded_humidity": 39,
+    "recorded_at": "2024-12-28T00:00:16.831Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f3fd790ade82ecfa2ebc2",
+    "recorded_temperature": 26.219,
+    "recorded_humidity": 63.38100000000001,
+    "recorded_at": "2024-12-28T00:01:27.520Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f3ff090ade82ecfa2ebc4",
+    "recorded_temperature": 24.668,
+    "recorded_humidity": 35.346,
+    "recorded_at": "2024-12-28T00:01:52.855Z",
+    "__v": 0
+  },
+  {
+    "_id": "676f3ff590ade82ecfa2ebc6",
+    "recorded_temperature": 28.034000000000002,
+    "recorded_humidity": 55.101,
+    "recorded_at": "2024-12-28T00:01:57.752Z",
+    "__v": 0
+  }
+]

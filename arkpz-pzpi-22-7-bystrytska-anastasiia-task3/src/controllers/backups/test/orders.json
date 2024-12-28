@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "6769fb8ae88d8cc760fa2e46",
+    "status": "completed",
+    "total_cost": 2000,
+    "medicine_quantity": 30,
+    "user_id": "67697afbc6266048c9ceeba8",
+    "medicine_id": "6769bb76218e8bffa364da47",
+    "order_date": "2024-12-24T00:08:42.569Z",
+    "__v": 0
+  },
+  {
+    "_id": "676a736c3574d28142ba8a0d",
+    "status": "pending",
+    "total_cost": 4000,
+    "medicine_quantity": 20,
+    "user_id": "676a717b3574d28142ba89f1",
+    "medicine_id": "676a70d03574d28142ba89eb",
+    "order_date": "2024-12-24T08:40:12.821Z",
+    "__v": 0
+  },
+  {
+    "_id": "676a75f43574d28142ba8a2a",
+    "status": "completed",
+    "total_cost": 30000,
+    "medicine_quantity": 20,
+    "user_id": "676a74433574d28142ba8a10",
+    "medicine_id": "676a70d03574d28142ba89eb",
+    "order_date": "2024-12-24T08:51:00.035Z",
+    "__v": 0
+  }
+]

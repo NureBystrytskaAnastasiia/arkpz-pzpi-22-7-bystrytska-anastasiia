@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "676895138eb0cd20d69ad174",
+    "username": "lola",
+    "email": "lola@gmail.com",
+    "password": "$2b$10$raHHfTJRxrZjqXpg/4k9.u8XNs88i8rwZ1Wa6c7ws3kVKF8nod1r.",
+    "role": "admin",
+    "created_at": "2024-12-22T22:39:15.262Z",
+    "__v": 0
+  },
+  {
+    "_id": "67689686edd79eea47b98b68",
+    "username": "mim",
+    "email": "mim@example.com",
+    "password": "$2b$10$7yFFhPb0BxZ/MlxVMl10UezNhgycfDSH/t94GYFHQETU47qIb/oOq",
+    "role": "pharmacist",
+    "created_at": "2024-12-22T22:45:26.146Z",
+    "__v": 0
+  },
+  {
+    "_id": "676969aea85870225c6c2ccf",
+    "username": "nana",
+    "email": "nana@gmail.com",
+    "password": "$2b$10$ii3agic2PSeGcdzXf./0M.GI72J9WkQOFXVg9nVMdcbEjcBeUvN1O",
+    "role": "admin",
+    "created_at": "2024-12-23T13:46:22.714Z",
+    "__v": 0
+  },
+  {
+    "_id": "67697afbc6266048c9ceeba8",
+    "username": "nastya",
+    "email": "anasteiha484@gmail.com",
+    "password": "$2b$10$zZa3gC.OJVXO8mbBQ0WMVO/wLSGk3XoX/XsaxWREa7ojHzThFYGJO",
+    "role": "admin",
+    "created_at": "2024-12-23T15:00:11.414Z",
+    "__v": 0
+  },
+  {
+    "_id": "67698a1448ce5d0cde260d70",
+    "username": "Sasha",
+    "email": "oleksandr.kolesnyk@nure.ua",
+    "password": "$2b$10$vvHfRLErGFoOth/YDyjUMu13Q1ngs5F.vg3SUVilpD6fegIMp23k2",
+    "role": "pharmacist",
+    "created_at": "2024-12-23T16:04:36.896Z",
+    "__v": 0
+  },
+  {
+    "_id": "6769eb391255055d4f54ae04",
+    "username": "Ana",
+    "email": "Ana@gmail.com",
+    "password": "$2b$10$9s21ITbp6IuUCtBtINRoseAvY6pnEAxpVcvypM4OdqWu32eq8/vNa",
+    "role": "pharmacist",
+    "created_at": "2024-12-23T22:59:05.988Z",
+    "__v": 0
+  },
+  {
+    "_id": "676a74433574d28142ba8a10",
+    "username": "Anastasia",
+    "email": "anastasiia.bystrytska@nure.ua",
+    "password": "$2b$10$aLFjEu9A9djyaQwwLylWzOIavm4V3vbP4NmgJBSb79lt3UJ2fEpl2",
+    "role": "admin",
+    "created_at": "2024-12-24T08:43:47.604Z",
+    "__v": 0
+  }
+]

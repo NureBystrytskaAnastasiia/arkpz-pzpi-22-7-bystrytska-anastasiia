@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "676f0655471ea4a603328080",
+    "location": "Холодильник",
+    "sensorId": "676f05b63ef6d21bdebb7d9b",
+    "__v": 0
+  },
+  {
+    "_id": "676f2dd7ae0862c9e4222da0",
+    "location": "Склад",
+    "sensorId": "676f2d1e60c2a7c43144efe2",
+    "__v": 0
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "6769bb76218e8bffa364da47",
+    "name": "Лінекс",
+    "manufacturer": "Байєр",
+    "expiration_date": "2028-06-09T00:00:00.000Z",
+    "quantity": 50,
+    "supplier_id": "67699ecbf748c4f68b04f282",
+    "storage_room_id": "6769b2f92a40b1ba1d75d15e",
+    "__v": 0
+  },
+  {
+    "_id": "6769ff4a2635d2a81cdb7a00",
+    "name": "сорбекс",
+    "manufacturer": "ХарківЛіки",
+    "expiration_date": "2028-03-24T00:00:00.000Z",
+    "quantity": 50,
+    "supplier_id": "67699ecbf748c4f68b04f282",
+    "storage_room_id": "6769b2abded0f7ef59b21239",
+    "__v": 0
+  },
+  {
+    "_id": "676a70d03574d28142ba89eb",
+    "name": "Цитрамон",
+    "manufacturer": "Дарниця",
+    "expiration_date": "2029-12-24T00:00:00.000Z",
+    "quantity": 60,
+    "supplier_id": "67699ecbf748c4f68b04f282",
+    "storage_room_id": "6769b2f92a40b1ba1d75d15e",
+    "__v": 0
+  },
+  {
+    "_id": "676a74e33574d28142ba8a18",
+    "name": "магній",
+    "manufacturer": "ХарківЛіки",
+    "expiration_date": "2027-12-24T00:00:00.000Z",
+    "quantity": 90,
+    "supplier_id": "67699ecbf748c4f68b04f282",
+    "storage_room_id": "6769b2f92a40b1ba1d75d15e",
+    "__v": 0
+  }
+]
